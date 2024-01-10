@@ -1,0 +1,106 @@
+/*https: //science.nasa.gov/mercury/*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    margin: 0;
+}
+
+:root {
+    --whitecolor: rgb(255 255 255);
+    --blackcolor: rgb(0 0 0);
+}
+
+.bg-img {
+    background-image: url("../images/universe-slider-bg.jpg");
+    min-height: 1000px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: gray;
+    padding: 30px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar img {
+    height: 33px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: var(--whitecolor);
+}
+
+.navbar .active {
+    color: var(--whitecolor);
+}
+
+/* header start*/
+
+
+.centered-text {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: var(--whitecolor);
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.row-side1 {
+    flex: 10%;
+}
+
+.row-side3 {
+    flex: 40%;
+    position: relative;
+    z-index: 2;
+}
+
+.row-side3>img {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    margin: 339px 0px 0px 137px;
+}
+
+.row-side2 {
+    flex: 40%;
+    color: white;
+}
+
+.row-side2>h1 {
+    z-index: 4;
+    margin: 460px 0px 0px 80px;
+}
+
+.row-side2>p {
+    z-index: 4;
+    margin: 10px 0px 0px 80px;
+}
+
+.row-side4 {
+    flex: 10%;
+}

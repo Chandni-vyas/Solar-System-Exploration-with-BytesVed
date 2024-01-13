@@ -1,16 +1,25 @@
 /*https: //science.nasa.gov/mercury/*/
+:root {
+    --whitecolor: rgb(255 255 255);
+    --blackcolor: rgb(0 0 0);
+}
+
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Poppins;
-    margin: 0;
+    background-color: var(--blackcolor);
+    color: var(--whitecolor);
 }
 
-:root {
-    --whitecolor: rgb(255 255 255);
-    --blackcolor: rgb(0 0 0);
+
+
+p {
+    text-align: justify;
 }
 
 .bg-img {
@@ -91,16 +100,440 @@ body {
     color: white;
 }
 
-.row-side2>h1 {
-    z-index: 4;
-    margin: 460px 0px 0px 80px;
-}
-
 .row-side2>p {
     z-index: 4;
-    margin: 10px 0px 0px 80px;
+    margin: 460px 0px 0px 80px;
 }
 
 .row-side4 {
     flex: 10%;
 }
+
+/* row1 start*/
+.row1-bg {
+    background-image: url("../images/universe-planets-sunbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--whitecolor);
+    padding-top: 5%;
+}
+
+.row1-side1 {
+    flex: 10%;
+}
+
+.row1-side3 {
+    flex: 40%;
+
+}
+
+.row1-side2 {
+    flex: 40%;
+}
+
+.row1-side4 {
+    flex: 10%;
+}
+
+/*row1 end*/
+
+/* row 2 start*/
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row2-side1 {
+    flex: 15%;
+}
+
+.row2-side2 {
+    flex: 80%;
+}
+
+.row2-side2 {
+    margin-top: 10%;
+}
+
+.row2-side3 {
+    flex: 5%;
+}
+
+.row2-side2>img {
+    width: 100%;
+}
+
+/* row 2 end*/
+
+/* row3 start*/
+.row3 {
+    color: var(--whitecolor);
+    display: flex;
+    margin-top: 10%;
+}
+
+.row3-side1 {
+    flex: 10%;
+}
+
+.row3-side2 {
+    flex: 40%;
+}
+
+.row3-side3 {
+    flex: 40%;
+}
+
+.row3-side3>ul {
+    text-align: justify;
+}
+
+.row3-side4 {
+    flex: 10%;
+}
+
+/* row3 end*/
+/*mercury start*/
+.mercury-bg {
+    background-image: url("../images/mercury.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    /* transform: translate(-5%, 30%); */
+
+}
+
+.row4 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row4-side1 {
+    flex: 10%;
+}
+
+.row4-side2 {
+    flex: 80%;
+}
+
+.row4-side2>h1 {
+    font-size: 2rem;
+}
+
+.row4-side3 {
+    flex: 10%;
+}
+
+.row5 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row5-side1 {
+    flex: 10%;
+}
+
+.row5-side2 {
+    flex: 20%;
+}
+
+.row5-side3 {
+    flex: 20%;
+}
+
+.row5-side4 {
+    flex: 50%;
+}
+
+.bluecolor {
+    color: skyblue;
+    font-size: 2rem;
+}
+
+.row6 {
+    color: var(--whitecolor);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #17171b;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.row6-side1 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+.row6-side2 {
+    flex: 16%;
+}
+
+.row6-side3 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+.row6-side4 {
+    flex: 16%;
+}
+
+.row6-side5 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+
+.row6-side6 {
+    flex: 16%;
+}
+
+.row6-side7 {
+    flex: 5%;
+    margin: auto;
+    text-align: left;
+}
+
+
+.row6-side8 {
+    flex: 16%;
+}
+
+.row6-side1>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+.row6-side3>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+.row6-side5>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+
+.row6-side7>img {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: auto 15%;
+}
+
+/*mercury end*/
+
+/* Venus start*/
+.venus-bg {
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.venus-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 3px hwb(0 71% 27% / 0.8);
+}
+
+.row7 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row7-side1 {
+    flex: 5%;
+}
+
+.row7-side2 {
+    flex: 40%;
+}
+
+.row7-side2>img {
+    /* transform-origin: 129% -25%; */
+    max-width: 100%;
+    height: auto;
+}
+
+.row7-center {
+    flex: 10%;
+}
+
+.row7-side3 {
+    flex: 40%;
+}
+
+.row7-side4 {
+    flex: 5%;
+}
+
+/* Venus end*/
+
+/*Earth start*/
+/* .Earth-bg {
+    background-image: url("../images/universe-earth-globe.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+} */
+
+.Earth-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+.row8 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row8-side1 {
+    flex: 10%;
+
+}
+
+.row8-side2 {
+    flex: 35%;
+    padding: 8%;
+    box-shadow: 2px 2px 12px #aaaaaa;
+    border-radius: 5%;
+}
+
+.row8-center {
+    flex: 10%;
+}
+
+.row8-side3 {
+    flex: 35%;
+}
+
+.row8-side4 {
+    flex: 10%;
+}
+
+
+.row9 {
+    color: var(--whitecolor);
+    display: flex;
+    z-index: 1;
+}
+
+.row9-side1 {
+    flex: 15%;
+
+}
+
+.row9-side2 {
+    flex: 30%;
+    padding-top: 8%;
+}
+
+.row9-center {
+    flex: 10%;
+}
+
+.row9-side3 {
+    flex: 30%;
+    z-index: 1;
+    position: relative;
+}
+
+.row9-side3>img {
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    margin: -37% 0% 0% -52%;
+}
+
+.row9-side4 {
+    flex: 15%;
+}
+
+
+.list {
+    position: relative;
+}
+
+.list h2 {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px hwb(0 71% 27% / 0.8);
+}
+
+.list ul {
+    position: relative;
+}
+
+.list ul li {
+    position: relative;
+    left: 0;
+    color: #fce4ec;
+    list-style: none;
+    margin: 4px 0;
+    border-left: 2px solid #aaaaaa;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.list ul li:hover {
+    left: 10px;
+}
+
+.list ul li span {
+    position: relative;
+    padding: 8px;
+    padding-left: 12px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.list ul li:hover span {
+    color: #111;
+}
+
+.list ul li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #aaaaaa;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+
+.list ul li:hover:before {
+    transform: scaleX(1);
+}
+
+/* Earth end*/

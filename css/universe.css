@@ -1,4 +1,3 @@
-/*https: //science.nasa.gov/mercury/*/
 :root {
     --whitecolor: rgb(255 255 255);
     --blackcolor: rgb(0 0 0);
@@ -16,8 +15,6 @@ body {
     color: var(--whitecolor);
 }
 
-
-
 p {
     text-align: justify;
 }
@@ -25,12 +22,13 @@ p {
 .bg-img {
     background-image: url("../images/universe-slider-bg.jpg");
     min-height: 1000px;
-    /* Center and scale the image nicely */
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    /* Needed to position the navbar */
     position: relative;
+    width: 100%;
+    height: auto;
+
 }
 
 .navbar {
@@ -39,8 +37,9 @@ p {
 }
 
 .navbar a {
+    font-size: 1rem;
     color: gray;
-    padding: 30px 50px;
+    padding: 30px 30px;
     text-decoration: none;
     text-align: center;
 }
@@ -64,11 +63,12 @@ p {
 .centered-text {
     position: absolute;
     top: 25%;
-    left: 55%;
-    transform: translate(-50%, -50%);
+    left: 40%;
+    transform: translate(-30%, -38%);
     color: var(--whitecolor);
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
 }
 
 
@@ -99,6 +99,7 @@ p {
     flex: 40%;
     color: white;
 }
+
 
 .row-side2>p {
     z-index: 4;
@@ -135,6 +136,11 @@ p {
 
 .row1-side2 {
     flex: 40%;
+}
+
+.row1-side2>h1 {
+    font-size: 2rem;
+    text-shadow: 2px 1px hwb(0 71% 27% / 0.8);
 }
 
 .row1-side4 {
@@ -186,6 +192,11 @@ p {
     flex: 40%;
 }
 
+.row3-side2>h1 {
+    font-size: 2rem;
+    text-shadow: 2px 1px hwb(0 71% 27% / 0.8);
+}
+
 .row3-side3 {
     flex: 40%;
 }
@@ -226,7 +237,8 @@ p {
 }
 
 .row4-side2>h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
 }
 
 .row4-side3 {
@@ -355,7 +367,7 @@ p {
 .venus-bg>h1 {
     text-align: center;
     font-size: 3rem;
-    text-shadow: 1px 3px hwb(0 71% 27% / 0.8);
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
 }
 
 .row7 {
@@ -437,6 +449,11 @@ p {
     flex: 10%;
 }
 
+.row8-side2>h1,
+.row8-side3>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
 
 .row9 {
     color: var(--whitecolor);
@@ -486,7 +503,7 @@ p {
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    text-shadow: 2px 2px hwb(0 71% 27% / 0.8);
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
 }
 
 .list ul {
@@ -537,3 +554,860 @@ p {
 }
 
 /* Earth end*/
+/* mars start*/
+.Mars-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* mars end*/
+
+/* Jupiter start*/
+.Jupiter-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+.row10 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row10-side1 {
+    flex: 5%;
+
+}
+
+.row10-side2 {
+    flex: 40%;
+}
+
+.row10-side2>img {
+    width: 100%;
+    height: auto;
+}
+
+.row10-center {
+    flex: 10%;
+}
+
+.row10-side3 {
+    flex: 40%;
+}
+
+.row10-side3>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row10-side4 {
+    flex: 5%;
+}
+
+/* Jupiter end*/
+/*Saturn start*/
+.Saturn-bg {
+    background-image: url("../images/saturn-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.row11 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row11-side1 {
+    flex: 10%;
+}
+
+.row11-side2 {
+    flex: 80%;
+}
+
+.row11-side2>h1 {
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row11-side3 {
+    flex: 10%;
+}
+
+.row12 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row12-side1 {
+    flex: 10%;
+}
+
+.row12-side2 {
+    flex: 20%;
+}
+
+.row12-side3 {
+    flex: 20%;
+}
+
+.row12-side4 {
+    flex: 50%;
+}
+
+/*Saturn end*/
+
+/* Uranus start*/
+.Uranus-bg {
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.Uranus-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row13 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row13-side1 {
+    flex: 5%;
+}
+
+.row13-side2 {
+    flex: 40%;
+}
+
+.row13-side2>img {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.row13-center {
+    flex: 10%;
+}
+
+.row13-side3 {
+    flex: 40%;
+}
+
+.row13-side4 {
+    flex: 5%;
+}
+
+/* Uranus end*/
+/*Neptune start*/
+.Neptune-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+
+}
+
+.row14 {
+    color: var(--whitecolor);
+    display: flex;
+}
+
+.row14-side1 {
+    flex: 10%;
+
+}
+
+.row14-side2 {
+    flex: 35%;
+    padding: 8%;
+    box-shadow: 2px 2px 12px #aaaaaa;
+    border-radius: 5%;
+}
+
+.row14-side2>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row14-center {
+    flex: 10%;
+}
+
+.row14-side3 {
+    flex: 35%;
+}
+
+.row14-side3>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row14-side4 {
+    flex: 10%;
+}
+
+
+.row15 {
+    color: var(--whitecolor);
+    display: flex;
+    z-index: 1;
+}
+
+.row15-side1 {
+    flex: 15%;
+
+}
+
+.row15-side2 {
+    flex: 30%;
+    padding-top: 8%;
+}
+
+.row15-side2>h1 {
+    text-shadow: 1px 2px hwb(0 71% 27% / 0.8);
+}
+
+.row15-center {
+    flex: 10%;
+}
+
+.row15-side3 {
+    flex: 30%;
+    z-index: 1;
+    position: relative;
+}
+
+.row15-side3>img {
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+
+    margin: -46% 0% 0% -67%;
+}
+
+.row15-side4 {
+    flex: 15%;
+}
+
+
+/* Neptune end*/
+
+/* Jupiter start*/
+.Pluto-bg {
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.Pluto-bg>h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px #c0b6b6a3, 5px 3px 5px #191971ef;
+}
+
+.row16 {
+    color: var(--whitecolor);
+    display: flex;
+
+}
+
+.row16-side1 {
+    flex: 5%;
+
+}
+
+.row16-side2 {
+    flex: 40%;
+}
+
+.row16-side2>img {
+    width: 100%;
+    height: auto;
+}
+
+.row16-center {
+    flex: 10%;
+}
+
+.row16-side3 {
+    flex: 40%;
+}
+
+ol>li {
+    margin-left: 5%;
+}
+
+.row16-side4 {
+    flex: 5%;
+}
+
+/* Jupiter end*/
+
+
+
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 575px) {
+    .navbar {
+        display: none;
+    }
+
+    .bg-img {
+        background-position: left;
+    }
+
+    .responsive {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row-side3 {
+        position: relative;
+        z-index: 0;
+    }
+
+    .row-side2>p {
+        text-align: justify;
+        margin: 460px 50px 0px 50px;
+    }
+
+    .row-side3>img {
+        position: relative;
+        z-index: 0;
+        margin-top: 10%;
+        margin-left: auto;
+        width: 50%;
+        margin: 53px 0px 0px 30px !important
+    }
+
+    .row1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row1-side3>p {
+        padding: 0% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .row3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row3-side3>ul {
+        padding: 0% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .mercury-bg {
+        background-image: url();
+    }
+
+    .row4-side2 {
+        text-align: justify;
+    }
+
+    .row4-side2>h1 {
+        padding: 0% 0% 0% 18%;
+    }
+
+    .row5 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row6 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row6-side1,
+    .row6-side2,
+    .row6-side3,
+    .row6-side4,
+    .row6-side5,
+    .row6-side6,
+    .row6-side7,
+    .row6-side8 {
+        padding-bottom: 2%;
+    }
+
+    .row7 {
+        flex-direction: column;
+    }
+
+    .row7-side2>img {
+        padding-right: 15%;
+    }
+
+    .row7-side3>p {
+        padding: 0% 10% 0% 10%;
+        text-align: justify;
+    }
+
+    .row8 {
+        flex-direction: column;
+    }
+
+    .row8-side2 {
+        margin: 0% 5% 0 5%;
+    }
+
+    .row8-side3 {
+        margin: 9% 5% 0 8%;
+    }
+
+    .row9 {
+        flex-direction: column;
+    }
+
+    .row9-side3>img {
+        position: relative;
+        z-index: 0;
+        margin: 0;
+        padding: 0 5% 0% 5%;
+    }
+
+    .list>h2 {
+        text-align: center;
+    }
+
+    .list ul {
+        margin-right: 10%;
+    }
+
+    .row10 {
+        flex-direction: column;
+    }
+
+    .responsive {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row10-side2>img {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row10-side3>h1 {
+        text-align: center;
+        padding-top: 9%;
+    }
+
+    .row10-side3>p {
+        padding: 0 5% 0 5%;
+        text-align: justify;
+    }
+
+    .Saturn-bg {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .row11 {
+        flex-direction: column;
+        padding-top: 11%;
+    }
+
+    .row11-side2>h1 {
+        text-align: center;
+    }
+
+    .row11-side2>h2 {
+        text-align: justify;
+        padding: 0 5% 0 5%;
+    }
+
+    .row12 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row13 {
+        flex-direction: column;
+    }
+
+    .row13-side2>img {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row13-side3>h1 {
+        text-align: center;
+        padding-top: 9%;
+    }
+
+    .row13-side3>p {
+        text-align: justify;
+        padding: 0 5% 0 5%;
+    }
+
+    .row14 {
+        flex-direction: column;
+    }
+
+    .row14-side2 {
+        margin: 0% 5% 0 5%;
+    }
+
+    .row14-side3 {
+        margin: 9% 5% 0 8%;
+    }
+
+    .row15 {
+        flex-direction: column;
+    }
+
+    .row15-side3>img {
+        position: relative;
+        z-index: 0;
+        margin: 0;
+        padding: 0 5% 0% 5%;
+    }
+
+    .row15-side2>h1,
+    p {
+        text-align: center;
+    }
+
+    .row16 {
+        flex-direction: column;
+    }
+
+    .row16-side2>img {
+        padding: 0 5% 5% 5%;
+    }
+
+    .row16-side3>h1 {
+        text-align: center;
+        padding-top: 9%;
+    }
+
+    .row16-side3>p {
+        padding: 0 5% 0 5%;
+        text-align: justify;
+    }
+
+    .row16-side3>ol {
+        padding: 0 5% 0 5%;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+
+    .bg-img {
+        background-position: left;
+    }
+
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+    .row-side2 {
+        position: relative;
+        z-index: 0;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row-side3>img {
+        position: relative;
+        z-index: 0;
+        margin-top: 10%;
+        width: 50%;
+    }
+
+    .row-side2>p {
+        margin: 460px 50px 0px 50px;
+    }
+
+    .row3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row3-side3>ul {
+        padding: 0% 10% 0% 10%;
+    }
+
+    .mercury-bg {
+        background-size: contain;
+    }
+
+    .row5-side1 {
+        flex: 10%;
+    }
+
+    .row5-side2 {
+        flex: 40%;
+    }
+
+    .row5-side3 {
+        flex: 40%;
+    }
+
+    .row5-side4 {
+        flex: 10%;
+    }
+
+    .row6 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mercury-bg+h3 {
+        text-align: center;
+    }
+
+    .row6-side1,
+    .row6-side2,
+    .row6-side3,
+    .row6-side4,
+    .row6-side5,
+    .row6-side6,
+    .row6-side7,
+    .row6-side8 {
+        padding-bottom: 2%;
+    }
+
+    .row7 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .row7-side2>img {
+        padding-right: 22%;
+    }
+
+    .row7-side3>p {
+        padding: 0% 10% 0% 10%;
+    }
+
+    .Saturn-bg {
+        background-position: top;
+        background-size: contain;
+    }
+
+    .row11 {
+        flex-direction: column;
+        padding-top: 20%;
+    }
+
+    .row11-side2>h1 {
+        text-align: center;
+    }
+
+    .row11-side2>h2 {
+        text-align: justify;
+        padding: 0 5% 0 5%;
+    }
+
+    .row12-side1 {
+        flex: 10%;
+    }
+
+    .row12-side2 {
+        flex: 40%;
+    }
+
+    .row12-side3 {
+        flex: 40%;
+    }
+
+    .row12-side4 {
+        flex: 10%;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar {
+        display: none;
+    }
+
+    .bg-img {
+        background-position: left;
+    }
+
+    .centered-text {
+        font-size: 4vmin;
+    }
+
+    .row-side2>p {
+        margin: 460px 0px 0px 20px;
+    }
+
+    .row-side3>img {
+        margin: 460px 0px 0px 40px !important;
+    }
+
+    .row1-side1 {
+        flex: 0%;
+    }
+
+    .row1-side2 {
+        flex: 50%;
+    }
+
+    .row1-side2>h1 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+
+    .row1-side3 {
+        flex: 50%;
+    }
+
+    .row1-side3>p {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .row1-side4 {
+        flex: 0%;
+    }
+
+    .mercury-bg {
+        background-size: contain;
+    }
+
+    .row6-side1 {
+        flex: 25%;
+    }
+
+    .row6-side2 {
+        flex: 25%;
+    }
+
+    .row6-side3 {
+        flex: 25%;
+    }
+
+    .row6-side4 {
+        flex: 25%;
+    }
+
+    .row6-side5 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .row6-side6 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .row6-side7 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .row6-side8 {
+        padding-top: 2%;
+        flex: 25%;
+    }
+
+    .Saturn-bg {
+        background-size: contain;
+    }
+
+    .row12-side1 {
+        flex: 10%;
+    }
+
+    .row12-side2 {
+        flex: 40%;
+    }
+
+    .row12-side3 {
+        flex: 40%;
+    }
+
+    .row12-side4 {
+        flex: 10%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .navbar {
+        display: none;
+    }
+
+    .row-side3>img {
+        margin: 457px 0px 0px 100px;
+    }
+
+
+    .centered-text {
+        font-size: 1rem;
+        top: 10%;
+    }
+}
